@@ -1,0 +1,45 @@
+body{
+    background-color: rgba(92, 177, 247, 0.514);
+}
+.container{
+   height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.c1{
+    width:40%;
+    margin-left: 30%;
+    
+}
+.c1 img{
+    border-radius: 50%;
+}
+.c1 img{
+    border-radius: 50%;
+    
+}
+.c1 img:hover{
+    border-radius: 0px;
+    transform: rotate(360deg);
+    transition: border-radius 1s ease-in,transform 1s ease-in;
+}
+.c1 h2:hover{
+    font-family: cursive;
+    color: greenyellow;
+    transition: font-family 1s ease-in-out 1s,color 300ms ease-in-out ;
+    
+}
+.c2{
+    width: 40%;
+    margin-right: 20%;
+}
+.c2 p{
+    font-family: cursive;
+}
+.c2 li{
+    display: inline-block;
+    margin-right: 10%;
+}

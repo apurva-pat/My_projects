@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1005;
+}
+.navbar{
+    width: 30%;
+    position: relative;
+    left: 1000px;
+    margin-top: 0px;
+}
+.navbar li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px;
+}
+.navbar li img{
+    width:20px;
+    position: relative;
+    top:6px
+}
+.navbar li button{
+    position: relative;
+    top:0px;
+    left:5px
+}
+.container img{
+    width: 220px;
+    margin: 40px auto;
+    display: block;
+}
+.container input{
+    display: inline-block;
+    width: 320px;
+    line-height: 22px;
+    margin-left: 480px;
+    position: relative;
+    bottom: 45px;
+}
+.container li{
+    display: inline-block;
+}
+.container li img{
+    width:20px
+}
+.container ul{
+    position: relative;
+    right: 60px;
+    bottom: 50px;
+}

@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-image: url('./images/i2.jpeg');
+    color: white;
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top:20px;
+    left: 34px;
+    font-family: cursive;
+}
+.left img{
+    width: 55px;
+    height: 35px;
+    margin: 0px 28px;
+}
+.mid{
+    display:block;
+    width: 37%;
+    margin: 20px auto;
+    /* border: 2px solid green; */
+    font-family: cursive;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 9px;
+    font-size: 15px;
+}
+
+.navbar li a:hover,.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+    padding: 5px 9px;
+    font-size: 15px;
+}
+
+.right{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top:29px;
+    right: 34px;
+    width:340px;
+    margin: 5px 15px;
+
+}
+.right button{
+    margin:5px;
+    border-radius: 10px;
+    padding:4px;
+}
+.right button:hover{
+    background-color: grey;
+    cursor: pointer;
+    font-family: cursive;
+}
+.container{
+    /* border: 2px solid greenyellow; */
+    padding: 40px;
+    margin:134px 774px;
+    width: 37%;
+    border-radius: 20px;
+}
+.inp input{
+    display: block;
+    margin: 10px;
+    text-align: center;
+    width: 192px;
+}
+.container button{
+    margin:6px 20px;
+    width: 200px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
